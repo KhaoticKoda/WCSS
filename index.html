@@ -56,7 +56,7 @@
     let yourOptions = {
 
       // Sheet Information
-      sheetID: "1ycJXxONqGEWqvO07HfUEPGw_rtTYa5xedAY3xZsuZrM",
+      sheetID: "1IIL8higQFL0n7EaF2yivE0yHoFco6Mnju40_vpZ085I",
       sheetPage: "Public Masterlist",
 
       // Amount of items shown on the page. Default is 12.
@@ -64,14 +64,14 @@
 
       // Ascending  (1 2 3) || asc
       // Descending (3 2 1) || desc
-      itemOrder: "desc",
+      itemOrder: "asc",
 
       // Columns the search looks through by default
-      searchParams: ['id', 'owner', 'artist', 'designer'],
+      searchParams: ['id', 'rank', 'gender', 'designer'],
 
       // Creates 1 URL parameter that will filter the list based on a
       // column of your choosing.
-      urlFilterParam: 'Species',
+      urlFilterParam: 'Clan',
 
     };
   </script>
@@ -240,7 +240,7 @@
     ------------------------------------------------------------------- -->
     <li class="col-lg-3 col-sm-6 p-2" id="charadex-entries">
       <a class="card h-100 link" href="">
-        <h5 class="card-header text-center id"></h5>
+        <h5 class="card-header text-center name"></h5>
         <div class="card-body d-flex flex-fill">
           <img class="image img-fluid m-auto" src="" oncontextmenu="return false">
         </div>
@@ -265,7 +265,7 @@
       <div class="card">
 
         <!-- Header -->
-        <h2 class="card-header text-center p-4 id"></h2>
+        <h2 class="card-header text-center p-4 name"></h2>
 
 
         <!--Main Info -->

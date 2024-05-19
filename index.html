@@ -14,10 +14,10 @@
   <link rel="shortcut icon" type="image/png" href=""/>
 
   <!-- Title of your site -->
-  <title>Charadex</title>
+  <title>Warrior Cats: S.S</title>
 
   <!-- Description of your site -->
-  <meta name="description" content="An automated masterlist for your species!">
+  <meta name="description" content="A fan made warrior cat story by KhaoticKoda">
 
 
   <!-- ----------------------------------------------------------------- -->
@@ -83,7 +83,7 @@
     <div class="container">
 
       <!-- Brand -->
-      <a class="navbar-brand" href="#"><i class="bi bi-box2-"></i> H</a>
+      <a class="navbar-brand" href="#"><i class="bi bi-box2-"></i> Warrior Cats: Solar Storm</a>
 
       <!-- Toggle -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#charadexnav">
@@ -155,11 +155,17 @@
               through. Make sure that filter="" matches the column with said items.
               Do not remove 'All' -->
           <div class="col-md-2 col-12 p-1">
-            <select class="form-control bg-faded" filter="designtype" id="filter">
+            <select class="form-control bg-faded" filter="rank" id="filter">
               <option>All</option>
-              <option>Official Design</option>
-              <option>Guest Design</option>
-              <option>MYO Design</option>
+              <option>Leader</option>
+              <option>Deputy</option>
+              <option>Medic</option>
+              <option>Warrior</option>
+              <option>Queen</option>
+              <option>Kit</option>
+              <option>Elder</option>
+              <option>Apprentice</option>
+              <option>N/A</option>
             </select>
           </div>
 
@@ -170,10 +176,10 @@
           <div class="col-md-2 col-3 p-1">
             <select class="form-control bg-faded" id="search-filter">
               <option>All</option>
-              <option>Worth</option>
-              <option>Owner</option>
+              <option>Name</option>
+              <option>Gender</option>
               <option>Designer</option>
-              <option>Artist</option>
+              <option>Status</option>
             </select>
           </div>
 
@@ -210,7 +216,7 @@
   <-- Please do not remove the credit
   <-------------------------------------------------------------------- -->
   <div class="footer bg-dark p-md-5 p-4 text-center">
-    <p><a class="text-reset" href="">[Species] © [Owner]</a></p>
+    <p><a class="text-reset" href="">W.C.S.S © KhaoticKoda</a></p>
     <p><a href="https://github.com/cheeriko/charadex">Powered by Charadex</a></p>
   </div>
 
@@ -249,7 +255,7 @@
       <!-- Prev & Next Topbar -->
       <div class="card p-4 mb-4">
         <div class="row no-gutters m-n1 text-sans-serif font-weight-bold text-uppercase">
-          <div class="col-md-4 col-12 text-center p-1 order-md-1"><a id="masterlistLink" href="">Masterlist</a></div>
+          <div class="col-md-4 col-12 text-center p-1 order-md-1"><a id="masterlistLink" href="">Cats</a></div>
           <div class="col-md-4 col-6 p-1"><a id="entryPrev" href=""><i class="bi bi-chevron-left mr-2"></i><span></span></a></div>
           <div class="col-md-4 col-6 text-right p-1 order-md-1"><a id="entryNext" href=""><span></span><i class="bi bi-chevron-right ml-2"></i></a></div>
         </div>
@@ -279,14 +285,14 @@
             
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Owner</b>
-              <span class="owner"></span>
+              <b class="text-muted">Name</b>
+              <span class="name"></span>
             </div>
               
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Artist</b>
-              <span class="artist"></span>
+              <b class="text-muted">Rank</b>
+              <span class="rank"></span>
             </div>
               
             <!-- Item -->
@@ -297,12 +303,7 @@
               
             <hr>
   
-            <!-- Item -->
-            <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Worth</b>
-              <span>$<span class="worth"></span></span>
-            </div>
-              
+            
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
               <b class="text-muted">Status</b>
@@ -313,8 +314,8 @@
               
             <!-- Item -->
             <div class="d-flex justify-content-between mb-2">
-              <b class="text-muted">Design Type</b>
-              <span class="designtype"></span>
+              <b class="text-muted">Gender</b>
+              <span class="gender"></span>
             </div>
               
             <hr>
